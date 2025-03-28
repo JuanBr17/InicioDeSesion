@@ -1,0 +1,46 @@
+<!-- Aqui inicio la página html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edupork</title>
+    <!--La relaciono con la hoja de css y otros elementos que voy a utilizar-->
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/128/7302/7302490.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="/index.js"></script>
+    </script>
+</head>
+<body>
+<!--Creo el body que me sirve para controlar el container-->
+<div class="body2">
+    <div class="container">
+        <div class="perfil"> 
+            <img src="https://cdn-icons-png.flaticon.com/128/15678/15678795.png" class="icon" alt="">
+        </div>
+        <div class="InicioGoogle">
+            <img src="https://cdn-icons-png.flaticon.com/128/281/281764.png" alt="google" class="gicon">
+            <a href="https://accounts.google.com/v3/signin/identifier?hl=es&ifkv=ASSHykqW0uSkUyBJ3FNckyFuruBc91gHrmwkPaw1r0qzusnwRqmbRhhndqyo-xdG_lznStnk9txnqA&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-601952507%3A1741881072575268" class="link">Iniciar sesión con google</a>
+        </div>
+        <form class="formulario" action="/Home.html"  method="get">
+            <div class="user">
+                <label for="user" class="inputs">Ingresar correo</label><br>
+                <input type="email" class="entrada"  id="Entrada1" placeholder="  Ingrese su correo" required>
+            </div>
+            <div class="password">
+                <label for="password" class="inputs">Contraseña</label><br>
+                <input type="password" class="entrada" id="entrada2" placeholder="  Ingrese su contraseña" required>
+            </div>
+            <div class="boton">
+                <input class="bIniciarSesion" type="submit" value="Iniciar sesión" onclick="enviar()">
+            </div>
+            <a href="https://www.youtube.com/watch?v=YAgJ9XugGBo" class="Registrarse">¿No tienes cuenta? Registrarme ahora</a>
+        </form>    
+</div>
+</div>
+<img src="/Imag.Inicio_Home/Captura de pantalla 2025-03-20 083818.png" alt="LogoEdupork" class="LogoEdupork">
+<img src="/Imag.Inicio_Home/image_2-removebg-preview.png" alt="" class="logBot">
+<img src="/Imag.Inicio_Home/image 3.svg" alt="" class="logBot logobot2">
+</body>
+</html>
